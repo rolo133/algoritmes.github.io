@@ -31,9 +31,9 @@
                         getallenrij[teller] = getallenrij[teller + 1];
                         getallenrij[teller + 1] = getallenruimte;
                     }
-                }
-            }
-        } else {
+                
+            
+         else {
             for (rondes = 0; rondes <= aantal; rondes++) {
     
                 // de tweede loop laat het algoritme door de lijst heen gaan en kijkt of het al gesorteerd is. Als de onderkant gesorteerd is dan wordt daar niet nog een keer naar gekeken of het gesorteerd is vandaar de -2 inplaats van de -1
@@ -51,9 +51,9 @@
                         // het tweede getal dat nu dubbel in de lijst staat wordt vervangen door het getal in de bewaar ruimte
                         getallenrij[teller + 1] = getallenruimte;
                     }
-                }
-            }
-        }
+                
+            
+        
     
         // als het algoritme klaar is dan zet het programma de uitkomst in een bericht en kan de gebruiker de volledige lijst zien.
         window.alert("de gesorteerde lijst is als volgt:");
